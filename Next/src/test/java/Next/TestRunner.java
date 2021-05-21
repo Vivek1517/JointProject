@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/features/",
-        tags = "@regression1",
+        tags = "@regression1 or @regression2",
         publish = true)
 
 public class TestRunner {
